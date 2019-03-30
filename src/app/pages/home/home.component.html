@@ -1,0 +1,159 @@
+<!-- Image slider -->
+<div class="carousel slide" data-ride="carousel" id="slides">
+  <ul class="carousel-indicators">
+    <li data-target="#slides" data-slide-to="0" class="active"></li>
+    <li data-target="#slides" data-slide-to="1"></li>
+    <li data-target="#slides" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/assets/img/tmp/slider-1.jpg">
+      <div class="carousel-caption">
+        <h1 class="display-2">IMOBIL</h1>
+        <h3>Apartamente la pret accesibil</h3>
+        <button type="button" class="btn btn-outline-light btn-lg">Vezi</button>
+        <button type="button" class="btn btn-warning btn-lg">Pagina demo</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/assets/img/tmp/slider-2.jpg">
+    </div>
+    <div class="carousel-item">
+      <img src="/assets/img/tmp/slider-3.jpg">
+    </div>
+  </div>
+</div>
+<!-- Main block -->
+<div class="container-fluid">
+  <div class="row jumbotron">
+    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus eveniet debitis itaque sit, repellendus dolore laudantium perspiciatis alias saepe, aliquid illo maxime vel quaerat corporis, iure assumenda dicta aliquam vero! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid fugit vitae fuga neque dolore rem illo accusamus sint tempore assumenda alias, aliquam iste, obcaecati esse magnam at accusantium porro. Accusantium.</p>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+      <a href="#"><button class="btn btn-success btn-lg" type="button">Mai mult</button></a>
+    </div>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="row text-center alert">
+    <div class="col-12">
+      <h1 class="display-4">IMOBIL</h1>
+    </div>
+    <hr>
+    <div class="col-12">
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam accusamus repellendus iusto ipsam mollitia, amet impedit. Dolores, repellat et repellendus laudantium ullam adipisci! Voluptates dicta nihil error molestias repellendus eveniet, illum ipsa culpa, expedita corrupti debitis eaque. Aliquam repellat animi rerum ducimus, sed corrupti tenetur eligendi quia sunt distinctio. Mollitia at libero architecto vitae facere omnis ut minima nihil officiis!</p>
+    </div>
+  </div>
+</div>
+<div class="container-fluid padding">
+  <div class="row text-center padding">
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <h3>Apartament cu o camera</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+      <img src="/assets/img/tmp/ap-1.jpg" class="img-fluid">
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <h3>Apartament cu doua camere</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+      <img src="/assets/img/tmp/ap-2.jpeg" class="img-fluid">
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <h3>Apartament cu 3 camere</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+      <img src="/assets/img/tmp/ap-3.jpg" class="img-fluid">
+    </div>
+  </div>
+  <hr class="my-4">
+</div>
+<div class="container-fluid padding">
+  <div class="row padding">
+    <div class="offset-lg-2 col-lg-4">
+      <h2>Despre procurarea imobilului in Moldova</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam odit quis, ut, quasi pariatur nam ab maxime perferendis mollitia consectetur molestiae. Provident enim asperiores laboriosam suscipit illum aperiam sequi magni?
+        <br><br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore quae, sed veniam optio voluptates minima est atque ut quisquam et. Architecto tempore nam sint vel quia molestias porro, a sed!
+        <br><br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore quae, sed veniam optio voluptates minima est atque ut quisquam et. Architecto tempore nam sint vel quia molestias porro, a sed!</p>
+      <br>
+      <a href="#" class="btn btn-danger">Mai mult</a>
+    </div>
+    <div class="col-lg-6">
+      <br>
+
+      <img src="/assets/img/tmp/prima-casa.jpg" class="img-fluid">
+    </div>
+  </div>
+</div>
+<!-- Despre prima casa-->
+<figure>
+  <div class="fixed-wrap">
+    <div id="fixed">
+
+    </div>
+  </div>
+</figure>
+<!-- Sectiunea inchisa -->
+<div class="text-center">
+  <button type="button"class="btn btn-success" (click)="toggleMore()">Mai multe</button>
+</div>
+<div id="gifs"  *ngIf="showMore">
+  <div class="container-fluid padding">
+    <div class="row text-center">
+      <div class="col-sm-6 col-md-3">
+        <img src="/assets/img/gif_1.gif" class="gif">
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <img src="/assets/img/gif_2.gif" class="gif">
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <img src="/assets/img/gif_3.gif" class="gif">
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <img src="/assets/img/gif_4.gif" class="gif">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Oferte -->
+<div class="container-fluid padding">
+  <div class="row alert text-center">
+    <div class="col-12">
+      <h1 class="display-4">Cele mai bune oferte pentru tine</h1>
+    </div>
+    <hr>
+  </div>
+</div>
+<div class="container padding">
+  <div class="row padding">
+    <div class="col-md-4">
+      <div class="card">
+        <img src="/assets/img/tmp/offers-1.jpg" class="card-img-top">
+        <div class="card-body">
+          <h4 class="card-title">Apartament in sectorul Buiucani</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam consectetur, eos blanditiis.</p>
+          <a href="#" class="btn btn-warning">Vezi</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="/assets/img/tmp/offers-2.jpg" class="card-img-top">
+        <div class="card-body">
+          <h4 class="card-title">Apartament in sectorul centru</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam consectetur, eos blanditiis.</p>
+          <a href="#" class="btn btn-warning">Vezi</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="/assets/img/tmp/offers-3.jpg" class="card-img-top">
+        <div class="card-body">
+          <h4 class="card-title">Apartament in sectorul Riscani</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam consectetur, eos blanditiis.</p>
+          <a href="#" class="btn btn-warning">Vezi</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

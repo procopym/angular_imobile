@@ -1,0 +1,8 @@
+a {
+  cursor: pointer;
+}
+
+img{
+  max-width: 120px;
+  min-width: 50px;
+}

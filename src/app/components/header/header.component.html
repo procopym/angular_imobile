@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+  <div class="container-fluid">
+    <a routerLink="/" class="navbar-brand"><img src="/assets/img/logo.jpg"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" (click)="toggleSubmenu()"
+            data-target="#navbarResponsive">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" [ngClass]="{'show': showSubmenu}" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item ">
+          <a routerLink="/" class="nav-link" (click)="hideSubmenu()">Pagina principala</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="/" class="nav-link" (click)="hideSubmenu()">Despre noi</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="/" class="nav-link" (click)="hideSubmenu()">Contacte</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="/" class="nav-link" (click)="hideSubmenu()">Catalog</a>
+        </li>
+        <li class="nav-item">
+          <a (click)="showRequestModal()" class="nav-link">Plaseaza cerere</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="/requests" class="nav-link" (click)="hideSubmenu()">Requests</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
